@@ -141,7 +141,7 @@ export default function AboutPage() {
                 <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                   <p>
                     I have recently completed my Bachelor of Commerce and am
-                    currently pursuing Chartered Accountancy. I have
+                    currently pursuing Chartered Accountant. I have
                     successfully cleared the CA Foundation and Group A of the
                     Intermediate level.
                   </p>
@@ -189,11 +189,11 @@ export default function AboutPage() {
             }`}
           >
             <div className="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-              <div className="text-3xl font-bold text-gray-900 mb-2">1K+</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">150+</div>
               <div className="text-gray-600">Readers</div>
             </div>
             <div className="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-              <div className="text-3xl font-bold text-gray-900 mb-2">4.5★</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">2.1★</div>
               <div className="text-gray-600">Average Rating</div>
             </div>
             <div className="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">

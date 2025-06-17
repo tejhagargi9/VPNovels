@@ -192,15 +192,6 @@ export default function BooksPage() {
     }
   };
 
-  const handleViewAllCollections = () => {
-    // You can redirect to a dedicated collections page or author profile
-    window.open(
-      "https://www.google.com/search?q=Vikas+Patwari+books+author",
-      "_blank",
-      "noopener,noreferrer"
-    );
-  };
-
   const truncateText = (text, maxLength) => {
     return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
   };
@@ -367,7 +358,7 @@ export default function BooksPage() {
                     </div>
 
                     {/* Rating */}
-                    <div className="flex items-center space-x-2 mb-4">
+                    <div className="flex items-center space-x-2 mb-4 mt-4">
                       <div className="flex text-yellow-400">
                         {"★".repeat(5)}
                       </div>
