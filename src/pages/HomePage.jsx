@@ -196,7 +196,6 @@ export default function Homepage() {
           <p className="text-gray-500">© 2025 VPBooks. All rights reserved.</p>
         </div>
       </footer>
-      free
     </div>
   );
 }
