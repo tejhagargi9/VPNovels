@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import profilephoto from "../assets/images/writer-photo.jpg";
+import { Link } from "react-router-dom";
 
 export default function AboutPage() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -47,7 +48,7 @@ export default function AboutPage() {
                 Meet the Mind Behind
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
                   {" "}
-                  the Stories
+                  <i>the Stories</i>
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -188,15 +189,15 @@ export default function AboutPage() {
             }`}
           >
             <div className="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-              <div className="text-3xl font-bold text-gray-900 mb-2">50K+</div>
-              <div className="text-gray-600">Readers Worldwide</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">1K+</div>
+              <div className="text-gray-600">Readers</div>
             </div>
             <div className="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-              <div className="text-3xl font-bold text-gray-900 mb-2">4.8★</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">4.5★</div>
               <div className="text-gray-600">Average Rating</div>
             </div>
             <div className="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-              <div className="text-3xl font-bold text-gray-900 mb-2">2+</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">1+</div>
               <div className="text-gray-600">Years Writing</div>
             </div>
           </div>
@@ -236,12 +237,17 @@ export default function AboutPage() {
               love to hear from fellow readers and writers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
-                Send Message
-              </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:border-gray-400 hover:bg-gray-50 transform hover:scale-105 transition-all duration-200">
-                Follow on Social
-              </button>
+              <Link to="/contact">
+                <button className="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
+                  Send Message
+                </button>
+              </Link>
+              <a
+                href="https://www.instagram.com/untold_stories.official?igsh=ZWZoOWU1cGZucGd1"
+                className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:border-gray-400 hover:bg-gray-50 transform hover:scale-105 transition-all duration-200"
+              >
+                <button>Follow</button>
+              </a>
             </div>
           </div>
         </div>
@@ -252,33 +258,25 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
           <div className="flex justify-center space-x-8 mb-6">
             <a
-              href="#"
+              href="https://x.com/Vikas178P?t=r6DN-Dl4almZVvf_VO6R2Q&s=08"
               className="text-gray-500 hover:text-gray-700 transition-colors"
             >
               Twitter
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/vikas_patwari14?igsh=MTNwZDdlcHBhdGV6cg=="
               className="text-gray-500 hover:text-gray-700 transition-colors"
             >
               Instagram
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/vikaspatwari?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               className="text-gray-500 hover:text-gray-700 transition-colors"
             >
               LinkedIn
             </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-700 transition-colors"
-            >
-              Goodreads
-            </a>
           </div>
-          <p className="text-gray-500">
-            © 2025 Vikas Patwari. All rights reserved.
-          </p>
+          <p className="text-gray-500">© 2025 VPBooks. All rights reserved.</p>
         </div>
       </footer>
     </div>
