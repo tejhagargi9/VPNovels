@@ -100,6 +100,8 @@ export default function BooksPage() {
       urls: {
         "amazon-india": "https://amzn.in/d/8buLZ7v",
         "amazon-global": "https://a.co/d/adWJV8X",
+        pothi: "#",
+        ebook: "#",
       },
       category: "others",
       description:
