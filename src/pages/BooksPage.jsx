@@ -81,7 +81,7 @@ export default function BooksPage() {
       description:
         "A very interesting story filled with suspense, thriller, love, and horror. Every page reveals a new twist that will keep you hooked till the end.",
       rating: 4.8,
-      isNew: true,
+      isNew: false,
       isBestseller: true,
       coverImage: shetextedmeafterdeath,
       coverColor: "from-slate-800 via-slate-700 to-slate-900", // Fallback gradient
@@ -108,7 +108,7 @@ export default function BooksPage() {
         "A collection of raw emotions, silent screams, and unspoken truths — all wrapped in words",
       rating: 4.6,
       reviews: 187,
-      isNew: true,
+      isNew: false,
       isBestseller: false,
       coverImage: hundredquotes, // Add your image path here
       coverColor: "from-blue-800 via-indigo-700 to-purple-900", // Fallback gradient
@@ -119,24 +119,24 @@ export default function BooksPage() {
       title: "The Game That Has No Rules",
       author: "Vikas Patwari",
       price: {
-        "amazon-india": "Coming Soon",
-        "amazon-global": "Coming Soon",
-        pothi: "Coming Soon",
-        ebook: "Coming Soon",
+        "amazon-india": "₹169",
+        "amazon-global": "Not available",
+        pothi: "Not available",
+        ebook: "₹169",
       },
       urls: {
-        "amazon-india": "#",
+        "amazon-india": "https://amzn.in/d/9ZsKoEa",
         "amazon-global": "#",
         pothi: "#",
-        ebook: "#",
+        ebook: "https://store.pothi.com/book/ebook-vikas-patwari-game-has-no-rules/",
       },
       category: "novels",
       description:
         "Trapped in a game where secrets kill and exits lie — every choice is deadly. In this twisted survival, trust is your biggest enemy.",
-      rating: "...",
+      rating: "4.2",
       reviews: 256,
-      isNew: false,
-      isBestseller: false,
+      isNew: true,
+      isBestseller: true,
       coverImage: game, // Add your image path here
       coverColor: "from-gray-800 via-gray-700 to-black", // Fallback gradient
       availability: ["amazon-india", "amazon-global", "pothi", "ebook"],

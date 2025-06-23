@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import recentreleaseImage from "../assets/images/shetextedmeafterdeath.jpg";
+// import recentreleaseImage from "../assets/images/shetextedmeafterdeath.jpg";
+import recentreleaseImage from "../assets/images/game-frontpage.jpg";
 
 export default function Homepage() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -27,15 +28,15 @@ export default function Homepage() {
       <div className="absolute top-0 left-0 w-1.5 sm:w-2 h-full bg-gradient-to-b from-blue-400 to-purple-600"></div>
 
       {/* Book title on cover */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 sm:p-6 md:p-8">
+      <div className="absolute inset-0Five years after Kavya died flex flex-col justify-center items-center text-center p-4 sm:p-6 md:p-8">
         <div className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 md:mb-4 tracking-wider">
-          SHE
+          THE
         </div>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 tracking-wider leading-tight">
-          TEXTED ME
+          THAT HAS
         </div>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 md:mb-8 tracking-wider">
-          AFTER DEATH
+          NO RULES
         </div>
         <div className="text-gray-300 text-sm sm:text-base md:text-lg font-light tracking-widest">
           VIKAS PATWARI
@@ -72,7 +73,7 @@ export default function Homepage() {
                   ✨ NEW RELEASE
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight mb-4 sm:mb-6">
-                  She Texted Me After Death
+                  THE GAME THAT HAS NO RULES
                 </h1>
                 <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-2">
                   by{" "}
@@ -90,12 +91,13 @@ export default function Homepage() {
                 }`}
               >
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                  Five years after Kavya died, Aryan receives a message: “I miss
-                  you too.” As haunting love and digital mystery collide, Aryan
-                  must face the ultimate question — is she reaching out from the
-                  afterlife, or was her death a lie? She Texted Me After Death
-                  is a spine-chilling tale of cursed love, spiritual secrets,
-                  and a decision that could alter life... and death.
+                  Seventeen strangers enter The Hollow Grid—a deadly game with
+                  no rules, no mercy, and no escape. Trapped underground in
+                  Himachal Pradesh, survival means facing brutal challenges and
+                  inevitable betrayal. As the games grow bloodier, secrets
+                  surface: who created this nightmare, and why are they being
+                  watched? A gripping, twist-filled thriller perfect for fans of
+                  Squid Game and Alice in Borderland.
                 </p>
               </div>
 
@@ -107,13 +109,13 @@ export default function Homepage() {
                 }`}
               >
                 <a
-                  href="https://store.pothi.com/book/ebook-vikas-patwari-she-texted-me-after-death/"
+                  href="https://store.pothi.com/book/ebook-vikas-patwari-game-has-no-rules/"
                   className="bg-gray-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-gray-800 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-sm sm:text-base"
                 >
-                  Read Now - ₹149/-
+                  Read Now - ₹169/-
                 </a>
                 <a
-                  href="/preview.pdf"
+                  href="/gamepreview.pdf"
                   download
                   className="border-2 border-gray-300 text-gray-700 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:border-gray-400 hover:bg-gray-50 transform hover:scale-105 transition-all duration-200 text-sm sm:text-base"
                 >
