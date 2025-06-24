@@ -121,13 +121,13 @@ export default function BooksPage() {
       price: {
         "amazon-india": "₹169",
         "amazon-global": "Not available",
-        pothi: "Not available",
+        pothi: "₹249",
         ebook: "₹169",
       },
       urls: {
         "amazon-india": "https://amzn.in/d/9ZsKoEa",
         "amazon-global": "#",
-        pothi: "#",
+        pothi: "https://store.pothi.com/book/vikas-patwari-game-has-no-rules/",
         ebook: "https://store.pothi.com/book/ebook-vikas-patwari-game-has-no-rules/",
       },
       category: "novels",
