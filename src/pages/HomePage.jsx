@@ -185,7 +185,7 @@ export default function Homepage() {
 
                 {/* Floating badges */}
                 <div className="absolute -top-2 sm:-top-4 -right-2 sm:-right-4 bg-green-500 text-white text-xs font-bold px-2 sm:px-3 py-1 sm:py-2 rounded-full shadow-lg animate-bounce">
-                  Bestseller
+                  New
                 </div>
               </div>
             </div>
