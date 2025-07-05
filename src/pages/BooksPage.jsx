@@ -67,7 +67,7 @@ export default function BooksPage() {
       price: {
         "amazon-india": "₹169",
         "amazon-global": "$2.99",
-        pothi: "₹169",
+        pothi: "₹249",
         ebook: "₹169",
       },
       urls: {
