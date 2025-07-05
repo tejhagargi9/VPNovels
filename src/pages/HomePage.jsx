@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 // import recentreleaseImage from "../assets/images/shetextedmeafterdeath.jpg";
-import recentreleaseImage from "../assets/images/game-frontpage.jpg";
+import recentreleaseImage from "../assets/images/unitlIRY.jpg";
 
 export default function Homepage() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -63,7 +63,7 @@ export default function Homepage() {
             {/* Content Section */}
             <div className="space-y-6 sm:space-y-8 mt-4 text-center lg:text-left">
               <div
-                className={`transform transition-all duration-1000 delay-300 ${
+                className={`transform transition-all duration-1000 delay-300 ${ 
                   isLoaded
                     ? "translate-x-0 opacity-100"
                     : "-translate-x-20 opacity-0"
@@ -73,7 +73,7 @@ export default function Homepage() {
                   ✨ NEW RELEASE
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight mb-4 sm:mb-6">
-                  THE GAME THAT HAS NO RULES
+                UNTIL I REMEMBER YOU
                 </h1>
                 <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-2">
                   by{" "}
@@ -91,13 +91,13 @@ export default function Homepage() {
                 }`}
               >
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                  Seventeen strangers enter The Hollow Grid—a deadly game with
-                  no rules, no mercy, and no escape. Trapped underground in
-                  Himachal Pradesh, survival means facing brutal challenges and
-                  inevitable betrayal. As the games grow bloodier, secrets
-                  surface: who created this nightmare, and why are they being
-                  watched? A gripping, twist-filled thriller perfect for fans of
-                  Squid Game and Alice in Borderland.
+                  At the Mnemosyne Memory Institute in Goa, where people come to
+                  erase heartbreak, Zenia D’Costa is shocked when her former
+                  lover, Aariv Murao, arrives as a patient—asking to forget a
+                  woman he no longer remembers is her. As fragments of their
+                  past resurface through music and monsoon nights, Zenia must
+                  decide whether to guard her heart or help him remember. A
+                  poignant tale of love, memory, and the pain of letting go.
                 </p>
               </div>
 
@@ -109,13 +109,13 @@ export default function Homepage() {
                 }`}
               >
                 <a
-                  href="https://store.pothi.com/book/ebook-vikas-patwari-game-has-no-rules/"
+                  href="https://amzn.in/d/dMk7Atp"
                   className="bg-gray-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-gray-800 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-sm sm:text-base"
                 >
                   Read Now - ₹169/-
                 </a>
                 <a
-                  href="/gamepreview.pdf"
+                  href="/untilIRY_preview.pdf"
                   download
                   className="border-2 border-gray-300 text-gray-700 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:border-gray-400 hover:bg-gray-50 transform hover:scale-105 transition-all duration-200 text-sm sm:text-base"
                 >

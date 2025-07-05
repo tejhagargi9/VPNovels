@@ -9,6 +9,7 @@ import {
 import shetextedmeafterdeath from "../assets/images/shetextedmeafterdeath.jpg";
 import hundredquotes from "../assets/images/100quotes.jpg";
 import game from "../assets/images/game.jpg"; // Add your image path here
+import unitlIRY from "../assets/images/unitlIRY.jpg"; // Add your image path here
 
 export default function BooksPage() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -61,6 +62,33 @@ export default function BooksPage() {
   const books = [
     {
       id: 1,
+      title: "Until I Remember You",
+      author: "Vikas Patwari",
+      price: {
+        "amazon-india": "₹169",
+        "amazon-global": "$2.99",
+        pothi: "₹169",
+        ebook: "₹169",
+      },
+      urls: {
+        "amazon-india": "https://amzn.in/d/dMk7Atp",
+        "amazon-global": "https://a.co/d/1N2adTh",
+        pothi: "https://store.pothi.com/book/ebook-vikas-patwari-until-i-remember-you/",
+        ebook: "https://store.pothi.com/book/ebook-vikas-patwari-until-i-remember-you/",
+      },
+      category: "novels",
+      description:
+        "A poignant tale of lost love, fading memories, and the choice between forgetting and holding on",
+      rating: "4.2",
+      reviews: 256,
+      isNew: true,
+      isBestseller: false,
+      coverImage: unitlIRY, // Add your image path here
+      coverColor: "from-gray-800 via-gray-700 to-black", // Fallback gradient
+      availability: ["amazon-india", "amazon-global", "pothi", "ebook"],
+    },
+    {
+      id: 2,
       title: "She Texted Me After Death",
       author: "Vikas Patwari",
       price: {
@@ -88,7 +116,7 @@ export default function BooksPage() {
       availability: ["amazon-india", "amazon-global", "pothi", "ebook"],
     },
     {
-      id: 2,
+      id: 3,
       title: "100 Quotes to change your mindset",
       author: "Vikas Patwari",
       price: {
@@ -115,7 +143,7 @@ export default function BooksPage() {
       availability: ["amazon-india", "amazon-global", "pothi", "ebook"],
     },
     {
-      id: 3,
+      id: 4,
       title: "The Game That Has No Rules",
       author: "Vikas Patwari",
       price: {
