@@ -117,33 +117,6 @@ export default function BooksPage() {
     },
     {
       id: 3,
-      title: "100 Quotes to change your mindset",
-      author: "Vikas Patwari",
-      price: {
-        "amazon-india": "₹128",
-        "amazon-global": "$1.49",
-        pothi: "Not available",
-        ebook: "Not available",
-      },
-      urls: {
-        "amazon-india": "https://amzn.in/d/8buLZ7v",
-        "amazon-global": "https://a.co/d/adWJV8X",
-        pothi: "#",
-        ebook: "#",
-      },
-      category: "others",
-      description:
-        "A collection of raw emotions, silent screams, and unspoken truths — all wrapped in words",
-      rating: 4.6,
-      reviews: 187,
-      isNew: false,
-      isBestseller: false,
-      coverImage: hundredquotes, // Add your image path here
-      coverColor: "from-blue-800 via-indigo-700 to-purple-900", // Fallback gradient
-      availability: ["amazon-india", "amazon-global", "pothi", "ebook"],
-    },
-    {
-      id: 4,
       title: "The Game That Has No Rules",
       author: "Vikas Patwari",
       price: {
@@ -167,6 +140,33 @@ export default function BooksPage() {
       isBestseller: true,
       coverImage: game, // Add your image path here
       coverColor: "from-gray-800 via-gray-700 to-black", // Fallback gradient
+      availability: ["amazon-india", "amazon-global", "pothi", "ebook"],
+    },
+    {
+      id: 4,
+      title: "100 Quotes to change your mindset",
+      author: "Vikas Patwari",
+      price: {
+        "amazon-india": "₹128",
+        "amazon-global": "$1.49",
+        pothi: "Not available",
+        ebook: "Not available",
+      },
+      urls: {
+        "amazon-india": "https://amzn.in/d/8buLZ7v",
+        "amazon-global": "https://a.co/d/adWJV8X",
+        pothi: "#",
+        ebook: "#",
+      },
+      category: "others",
+      description:
+        "A collection of raw emotions, silent screams, and unspoken truths — all wrapped in words",
+      rating: 4.6,
+      reviews: 187,
+      isNew: false,
+      isBestseller: false,
+      coverImage: hundredquotes, // Add your image path here
+      coverColor: "from-blue-800 via-indigo-700 to-purple-900", // Fallback gradient
       availability: ["amazon-india", "amazon-global", "pothi", "ebook"],
     },
   ];
