@@ -73,7 +73,7 @@ export default function BooksPage() {
       urls: {
         "amazon-india": "https://amzn.in/d/dMk7Atp",
         "amazon-global": "https://a.co/d/1N2adTh",
-        pothi: "https://store.pothi.com/book/ebook-vikas-patwari-until-i-remember-you/",
+        pothi: "https://store.pothi.com/book/vikas-patwari-until-i-remember-you/",
         ebook: "https://store.pothi.com/book/ebook-vikas-patwari-until-i-remember-you/",
       },
       category: "novels",
